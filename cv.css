@@ -1,0 +1,176 @@
+
+
+
+#section
+{   
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+}
+
+
+#section_left
+{    display: flex;
+    flex-direction: column;
+     border: 1px solid black ;
+     background-color: gold;
+     width: 350px;
+     height: 1200px;
+     
+}
+
+#image_cv
+ {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+
+img
+{
+    border-radius: 150px;
+}
+
+
+h3
+{
+     border: 1px solid black;
+     background-color: black;
+     color: gold;
+     text-align: center;
+}
+
+
+
+#about_me 
+{
+    text-align: justify;
+  
+}
+
+
+
+
+
+#cordo
+{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px; 
+}
+
+
+
+
+#about_me p
+ {
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 100px;
+ }
+
+
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+
+}
+
+a[href^="https"]::before {
+    content: "🔗 ";
+    
+
+    }
+
+
+
+
+
+
+#section_right
+
+{    display: flex;
+     flex-direction: column;
+     border: 1px solid hsl(0, 94%, 48%) ;
+     background-color:whitesmoke;
+     width: 1170px;
+     height: 1200px;
+     
+}
+
+
+
+#name_job
+{ 
+
+   text-align: center;
+   border: 1px solid red;
+}
+
+#formation
+ {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid royalblue;
+ }
+
+ #bor_formation
+ {
+    border:1px solid hsl(0, 94%, 48%);
+    background-color: lawngreen;
+ }
+
+ #date_formation1
+ {
+     display: flex;
+     flex-direction: row;
+     border:1px solid tomato;
+ }
+
+ #exp
+ {  
+    border: 1px solid seagreen;
+ }
+
+ #recom
+ {
+   display: flex;
+   flex-direction:column;
+   background-color: aqua;
+   border:1px solid springgreen;
+ }
+
+
+ #bor_recom
+ {
+    display: flex;
+    flex-direction: row;
+    border:1px solid hsl(0, 94%, 48%);
+    background-color: lawngreen;
+ }
+ #recom1_2
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     border:3px solid green;
+ }
+ 
+ #recom1
+ {
+   background-color: aqua;
+   border:1px solid green;
+ }
+ #recom2
+ {
+    background-color: yellowgreen;
+   border:1px solid red;
+ }
