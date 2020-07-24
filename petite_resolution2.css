@@ -30,7 +30,7 @@
 
    aside
    {
-      background-color:#FDD835
+      background-color:rgb(226, 196, 60);
    }
 
 
@@ -71,6 +71,7 @@
     visibility: visible;
     font-size: 12px;
     display: block;
+    padding-left: 10px;
 }
 
 
