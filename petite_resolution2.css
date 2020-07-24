@@ -1,0 +1,281 @@
+
+
+
+
+
+@media screen and (max-width: 740px)
+
+{
+
+
+   h1 
+   {
+      font-size: 25px;
+   }
+
+   h1 span 
+   {
+      color: gold;
+   }
+
+   h2 span {
+      
+      text-decoration: underline gold;
+   }
+
+
+
+
+
+   #about_me p
+   {   
+      font-size:15px;
+      padding-top: 40px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+   }
+  
+   #about_me
+   {
+       margin-bottom: 0px;
+   }
+
+
+
+
+
+   
+      article h2
+   {
+      font-size: 20px;
+      
+      
+
+      }
+
+      
+
+  
+   #myname
+
+{
+    visibility: visible;
+    font-size: 12px;
+    display: block;
+}
+
+
+
+   .date_school
+{
+    display:block;
+    border: hidden;
+    flex-direction: column ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+
+ }
+
+    .date br 
+    {
+       display: none;
+    }
+    
+    .date
+ {
+     
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+     width: max-content;
+
+}
+
+.school
+{
+    
+    margin-left:0px;
+
+    
+  }
+
+   
+   
+
+
+
+
+#bor_formation
+ {
+    border:hidden;
+    border-bottom: solid black;
+    
+    
+
+
+    }
+    
+
+
+
+/*  2 eme formation*/
+
+
+
+
+
+
+.date_school
+{
+    display:block;
+    border: hidden;
+    flex-direction: column ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+
+ }
+
+    .date br 
+    {
+       display: none;
+    }
+    
+    .date
+ {
+     
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+     
+}
+
+.school
+{
+    
+    margin-left:0px;
+
+    
+  }
+
+
+
+
+
+
+/*  3 eme formation*/
+
+
+
+#exp
+
+ {
+    border:hidden;
+    border-bottom: solid black;
+   
+    
+
+
+    }
+
+
+
+.date_school
+{
+    display:block;
+    border: hidden;
+    flex-direction: column ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+ }
+
+    .date br 
+    {
+       display: none;
+    }
+    
+    .date
+ {
+     
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+     
+}
+
+.school
+{
+    
+    margin-left:0px;
+
+    
+  }
+
+
+#recom1_2
+{
+   display: block;
+   flex-direction: column;
+   justify-content: space-between;
+   border:hidden;
+   margin-left: 40px;
+
+}
+
+
+#bor_recom
+{
+   border:hidden;
+    border-bottom: solid black;
+}
+
+#recom2
+{
+   margin-top: 20px;
+   
+}
+
+
+
+
+#exp i
+{  
+     display: none;
+}
+
+
+
+#bor_formation i 
+{
+    display: none;
+}
+
+
+#bor_recom i
+{
+   display: none;
+}
+
+
+
+
+#interests 
+ {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top:  20px; ;
+    padding-bottom: 20px;
+    
+
+}
+
+
+}
+

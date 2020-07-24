@@ -1,0 +1,173 @@
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+
+
+    body
+    {
+        display: block;
+    }
+
+
+     main
+     {   
+        display: block;
+         width: auto;
+         height: auto;
+        
+     }
+
+     aside
+{    display: block;
+     flex-direction: column;
+     border: 1px solid black ;
+     background-color:white;
+     width: auto;
+     height:auto;
+
+}
+
+.pe
+{
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+ 
+
+
+img
+{   
+    color:black;
+    border-radius: 100px;
+}
+
+
+
+
+
+#namejob 
+{
+    visibility: hidden;
+    display: none;
+}
+
+#myname
+{
+    visibility: visible;
+    font-size: 16px;
+    display: block;
+}
+
+
+
+
+#interests 
+ {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20vh;
+
+}
+
+#about_me p
+{   
+   font-size:15px;
+   padding-top: 30px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+}
+
+#about_me
+{
+    margin-bottom: 0px;
+}
+
+#sport-icon
+{  
+
+   background-color: gold;
+}
+
+
+#music_icon
+{
+    
+    background-color: gold;
+}
+
+#computer_icon
+{
+   background-color: gold;
+}
+
+
+
+section
+{    display: block;
+     flex-direction: column;
+     border:1px solid gray; 
+     background-color:gold;
+     width: auto;
+     height:auto;
+}
+
+
+
+#formation
+ {
+    display: block;
+    flex-direction:column;
+    border: hidden; 
+} 
+
+
+#exp i
+{  
+     color: black;
+}
+
+
+
+#bor_formation i 
+{
+    color: black;
+}
+
+.date i{
+    color: black;
+}
+
+.date i{
+    color: black;
+}
+
+.date i{
+    color: black;
+}
+
+#bor_recom i {
+    color: black;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+   

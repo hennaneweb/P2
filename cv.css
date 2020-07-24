@@ -1,21 +1,22 @@
 
 
 
-#section
+ main
 {   
     display: flex;
     flex-direction: row;
-    border: 1px solid green;
+    height: auto;
 }
 
 
-#section_left
+aside
 {    display: flex;
     flex-direction: column;
      border: 1px solid black ;
-     background-color: gold;
-     width: 350px;
-     height: 1200px;
+     background-color:#FDD835;
+     width: 30%;
+     height:auto;
+     
      
 }
 
@@ -25,24 +26,77 @@
      justify-content: center;
      margin-top: 30px;
      margin-bottom: 30px;
+     
  }
 
 
 img
 {
-    border-radius: 150px;
+    border-radius: 100px;
 }
+
+#myname
+{
+    visibility: hidden;
+    display: none;
+    
+}
+
+
+h1
+{
+    font-size: 40px;
+}
+h1 h2
+{
+    font-size: 14px;
+}
+
+h2 span 
+{ 
+    text-decoration: underline gold;
+    
+    
+}
+
 
 
 h3
 {
-     border: 1px solid black;
+    
      background-color: black;
      color: gold;
      text-align: center;
 }
 
 
+
+#contact h3
+{
+    border: hidden;
+    height: 35px;
+    align-self: center;
+    justify-content: center;
+    padding-top: 17px;
+}
+
+#about_me h3
+{
+    border: hidden;
+    height: 35px;
+    align-self: center;
+    justify-content: center;
+    padding-top: 17px;
+}
+
+#interests h3
+{
+    border: hidden;
+    height: 35px;
+    align-self: center;
+    justify-content: center;
+    padding-top: 17px;
+}
 
 #about_me 
 {
@@ -66,14 +120,19 @@ h3
 
 
 #about_me p
- {
-    padding-top: 30px;
+ {   
+    font-size: 18px;
+    padding-top: 40px;
     padding-right: 25px;
     padding-left: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
  }
 
-
+ #about_me
+ {
+     margin-bottom: 0px;
+ }
 
 a[href^="mailto"]::before {
     content: "📧 ";
@@ -86,66 +145,279 @@ a[href^="tel"]::before {
 
 a[href^="https"]::before {
     content: "🔗 ";
-    
-
     }
 
 
 
 
 
+#interests 
+ {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    padding-top: 50vh;
 
-#section_right
+}
+
+#icons_interests
+{
+    
+    border: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+
+
+#icons_interests
+{
+   margin-bottom: 40px;
+}
+
+
+#sport-icon
+{  
+
+    border: 2px solid black;
+    padding: 10px 5px 10px 5px;
+    border-radius:100px ;
+}
+
+
+#music_icon
+{
+    
+    font-size:20px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius:100px ;
+}
+
+#computer_icon
+{
+    padding-top: 2px;
+    font-size : 20px;    
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius:50% ;
+}
+
+
+
+
+section
 
 {    display: flex;
      flex-direction: column;
-     border: 1px solid hsl(0, 94%, 48%) ;
-     background-color:whitesmoke;
-     width: 1170px;
-     height: 1200px;
+     border:1px solid gray; 
+     background-color:white;
+     width: auto;
+     height:auto;
      
 }
 
 
 
-#name_job
+#namejob 
 { 
 
-   text-align: center;
-   border: 1px solid red;
+   justify-content: center;
+   border: hidden;
+   margin-top: 40px;
+   margin-left: 40px;
+   margin-bottom: 60px;
+  
 }
+
+
+h1 span
+{ color: gold;
+}
+
+h1 h2 span {
+
+   
+    text-decoration-color: gold;
+    text-decoration: underline;
+}
+ 
+
 
 #formation
  {
     display: flex;
     flex-direction:column;
-    border: 1px solid royalblue;
+    border: hidden;
+    margin-top: 40px
  }
 
  #bor_formation
  {
-    border:1px solid hsl(0, 94%, 48%);
-    background-color: lawngreen;
+    border:hidden;
+    border-bottom: solid gold;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+    
+ }
+
+ #bor_formation i
+ {
+     color: #FDD835 ;
  }
 
  #date_formation1
  {
      display: flex;
      flex-direction: row;
-     border:1px solid tomato;
+     border:hidden;
  }
+
+
+.date_school
+{
+    display:flex;
+    border: 2px solid red;
+    flex-direction: row ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+ .date
+ {
+     width: 140px;
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+    
+     
+ }
+
+ .school
+{
+    
+    margin-left:55px;
+    width: 100%;
+
+    
+  }
+
+
+
+article
+{
+     text-align: justify;
+}
+
+
+
+
+.date_school
+{
+    display:flex;
+    border: hidden;
+    flex-direction: row ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.date
+ {
+     width: 140px;
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+}
+
+.date_school
+{    display:flex;
+    border: hidden;
+    flex-direction: row ;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.date
+ {
+     width: 140px;
+     padding-right: 0px;
+     padding-top: 20px;
+     text-align: start;
+}
+
+.school
+
+{
+    
+    margin-left:55px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  #exp
  {  
-    border: 1px solid seagreen;
+    border: hidden;
+    margin-left: 40px;
+    border-bottom: solid gold;
+    margin-right: 40px;
  }
+
+ #exp i
+ {  
+      color: #FDD835;
+ }
+
+
+ 
+
+.date i{
+    color: #FDD835;
+}
+
+.date i{
+    color: #FDD835;
+}
+
+.date i{
+    color: #FDD835;
+}
+
+
 
  #recom
  {
    display: flex;
    flex-direction:column;
-   background-color: aqua;
-   border:1px solid springgreen;
+    border:hidden;
+    margin-bottom: 40px;
  }
 
 
@@ -153,24 +425,43 @@ a[href^="https"]::before {
  {
     display: flex;
     flex-direction: row;
-    border:1px solid hsl(0, 94%, 48%);
-    background-color: lawngreen;
+    border:hidden;
+    border-bottom: solid gold;
+    margin-right: 40px;
+    margin-left: 40px;
  }
+
+ #bor_recom i
+ {
+    color: #FDD835;
+ }
+
  #recom1_2
  {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
-     border:3px solid green;
- }
+     justify-content: space-between;
+     border:hidden;
+     margin-left: 40px;
+     
+     
+     
+    }
  
+
+
+
+
  #recom1
  {
-   background-color: aqua;
-   border:1px solid green;
+   margin-top:20px; 
+   border:hidden;
  }
+
+
  #recom2
  {
-    background-color: yellowgreen;
-   border:1px solid red;
+    margin-top:20px; 
+   border:hidden;
+   margin-right: 40px;
  }
