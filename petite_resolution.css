@@ -26,7 +26,7 @@
 {    display: block;
      flex-direction: column;
      border: 1px solid black ;
-     background-color:white;
+     background-color:gold;
      width: auto;
      height:auto;
 
@@ -116,7 +116,6 @@ section
 {    display: block;
      flex-direction: column;
      border:1px solid gray; 
-     background-color:gold;
      width: auto;
      height:auto;
 }
