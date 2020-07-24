@@ -51,6 +51,15 @@ img
 
 
 
+h1 span 
+{
+   color: white;
+}
+
+h2 span {
+   
+   text-decoration: underline white;
+}
 
 
 #namejob 
