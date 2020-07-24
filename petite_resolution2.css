@@ -13,6 +13,10 @@
       font-size: 25px;
    }
 
+
+
+
+
    h1 span 
    {
       color: white;
@@ -24,7 +28,10 @@
    }
 
 
-
+   aside
+   {
+      background-color:#FDD835
+   }
 
 
    #about_me p
